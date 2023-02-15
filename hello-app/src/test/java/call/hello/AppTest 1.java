@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 /**
  * Unit test for simple App.
  */
-public class AppTest 1
+public class AppTest1
 {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
@@ -36,7 +36,7 @@ public class AppTest 1
         try {
             assertEquals("Hello World from Java Maven Project!" + System.getProperty("line.separator"), outContent.toString());
         } catch (AssertionError e) {
-            fail("\"message\" is not \"Hello World from Java Maven Project!\"");
+            fail("\"message\" is not \"Hello World forJava Maven Project!\"");
         }
     }
 
